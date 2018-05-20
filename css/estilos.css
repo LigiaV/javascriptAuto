@@ -1,0 +1,98 @@
+
+article,figcaption,figure,footer,header,hgroup,nav,section{
+	display:block;
+}
+
+
+/****************estilos del cuerpo**************/
+article{
+
+background:#0A0A0A;
+     }
+
+body{
+	
+background:#78858B;
+color:#EC7C26;
+font-family:"Chalet",Helvetica,Verdana;
+font-size:1em;
+
+
+
+}
+
+
+/********************enlaces de manera general*****************/
+
+a{
+color:#57ABB8; /*azul*/
+font-weight:bold; /*la resaltacion remarcado*/
+text-decoration:none; /*quita la linea de los enlaces*/
+}
+
+a:hover{ /*trabajar todos los enlaces con hover color naranja */
+color:#F60;
+}
+
+img
+{
+max-width:100%;
+}
+
+ 
+/*********************a los objetos******************************/
+header, section#contenido, footer{
+background:#FDF4E3 url(../activos/fondo.jpg);/*fondo del header*/
+margin:0 auto;        /*centra el contenido al centro con "auto"*/
+max-width:90%;        /*del ancho total de la pagina el maximo va ser de 90% para tener 5% de un lado y 5% del otro*/
+text-align:center;
+
+}
+header h1,nav{
+display:inline-block; /*para que los dos esten a la misma altura h1 y nav*/
+max-width:100%;       /*va seguir  siendo 90% por el padre header*/
+vertical-align:middle; /*esto centro el menu middle=a la mitad*/
+}
+
+nav ul{
+list-style:none;
+}
+
+
+nav li{
+display:inline-block;
+padding:0.1em;
+vertical-align:top;
+
+}
+nav  a{
+background: #FFF; 
+border:0.1em solid #57ABB8;
+border-radius:0.25em; /*los 4 bordes del mismo tamaño*/
+color: #F60;
+display: block;
+font-family:Helvetica, Verdana;
+font-size: 1.4em;
+padding: 0.2em;
+-ms-transition: all 0.5s ease-in; /*lo reconoce  internet explorer*/
+-moz-transition: all 0.5s ease-in; /*lo reconoce mozilla*/
+-o-transition: all 0.5s ease-in;   /*lo reconoce opera*/
+-webkit-transition: all 0.5s ease-in; /*cron y zafari*/
+transition: all 0.5s ease-in; /*transicion  interna a todas las propiedades all*/
+
+}
+
+nav a:hover{
+background:#212121;
+border:0.1em dashed #F60;
+border-radius:0 0.5em 0 0.5em;
+color:#FFF;/*color de la letra del boton*/
+-ms-transition: all 0.5s ease-out;
+-moz-transition: all 0.5s ease-out;
+-o-transition: all 0.5s ease-out;
+-webkit-transition: all 0.5s ease-out;
+transition: all 0.5s ease-out; /*transicion  externa a todas las propiedades all*/
+}
+ 
+ 
+ 

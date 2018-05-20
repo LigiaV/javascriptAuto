@@ -1,0 +1,41 @@
+body{
+	
+background:#78858B;
+color:#EC7C26;
+font-family:"Chalet",Helvetica,Verdana;
+font-size:1em;
+
+
+
+}
+#autos
+{
+	background:#0A0A0A;
+	margin: auto;
+	max-width:90%; 
+	text-align: center;
+}
+
+.autos>div
+{
+	
+	display: inline-block;
+	margin: auto;
+	text-align: center;
+	vertical-align: top;
+	width: 30%;
+}
+
+.autos img
+{
+	display: block;
+	margin: 1em auto;
+	max-width: 100%;
+}
+header{
+background:#0A0A0A;
+margin:0 auto;        
+max-width:90%;        /*del ancho total de la pagina el maximo va ser de 90% para tener 5% de un lado y 5% del otro*/
+text-align:center;
+
+}
